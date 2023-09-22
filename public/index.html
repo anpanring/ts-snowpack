@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="dist/index.js" type="module"></script>
+  <link rel="stylesheet" href="styles/styles.css">
   <title>Document</title>
   <style>
     #list {
@@ -16,12 +17,23 @@
 </head>
 
 <body>
+  <div id="header-menu">
+    <div class="menu-items">
+      <a href="">Logo</a>
+      <a href="about.html">About</a>
+    </div>
+  </div>
   <ul id="list"></ul>
   <form id="new-task-form">
     <input type="text" id="new-task-title">
     <button type="submit">Add</button>
   </form>
-  <a href="about.html">About</a>
+  <div id="footer-menu">
+    <div class="menu-items">
+      <a href="about.html">Projects</a> <!-- left -->
+      <a href="resume.html">Resume</a> <!-- right -->
+    </div>
+  </div>
 </body>
 
 </html>
