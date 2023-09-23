@@ -7,6 +7,22 @@ type Task = {
   createdAt: Date
 }
 
+// type Page = {
+//   name: string,
+//   selected: boolean
+// }
+
+// // const selected: string = "home";
+
+// // const links = document.getElementsByClassName("page-link");
+// // let pages: Array<Page>;
+// // for (let i: number = 0; i < links.length; i++) {
+// //   console.log(links.item(i)?.textContent);
+// //   let page: Page = {
+// //     name: links.item(i)?.textContent
+// //   }
+// // }
+
 const list = document.querySelector<HTMLUListElement>("#list");
 const form = document.getElementById("new-task-form") as HTMLFormElement;
 const input = document.querySelector<HTMLInputElement>("#new-task-title");

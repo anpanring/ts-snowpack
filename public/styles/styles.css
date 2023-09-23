@@ -1,24 +1,40 @@
+/* body {
+    display: flex;
+    flex-direction: column;
+} */
+
 #header-menu {
-    background-color: green;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    margin: 1em;
     padding: 0.5em;
 }
 
 #footer-menu {
-    background-color: green;
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
-    margin: 1em;
     padding: 0.5em;
 }
 
+.content {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-self: center;
+}
+
 a {
+    color: green;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+a:hover,
+.page-selected {
+    background-color: green;
     color: white;
 }
 
